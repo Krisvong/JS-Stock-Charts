@@ -13,7 +13,7 @@ function getColor(stock) {
         return 'rgba(166, 43, 158, 0.7)'
     }
 }
-
+//Function to fetch twelvedata 
 async function main() {
     const timeChartCanvas = document.querySelector('#time-chart');
     const highestPriceChartCanvas = document.querySelector('#highest-price-chart');
